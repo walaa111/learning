@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body class="theme-brown">
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+       <div class="list-block">
+      <ul>
+        <li class="item-content ">
+            <a href="index.html">
+          
+          <div class="item-media"><img src="img/home.png"/></div>
+          <div class="item-inner">
+            <div class="item-title panel-close">Home </div>
+            </a>
+          </div>
+        </li>
+    
+            <li class="item-content">
+              <a href="index.html#video">
+              
+          <div class="item-media"><img src="img/video-player.png"/></div>
+          <div class="item-inner">
+            <div class="item-title">videos </div>
+              </a>
+          </div>
+        </li>
+
+         
+    
+      </ul>
+    
+    </div>
+
+      </div>
+    </div>
+    <!-- Right panel with cover effect-->
+    <div class="panel panel-right panel-cover">
+      <div class="content-block">
+        <p>Right panel content goes here</p>
+      </div>
+    </div>
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+  
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content">
+                    <div class="navbar">
+          <div class="navbar-inner">
+            <!-- We have home navbar without left link-->
+            <div class="center sliding">Learning English</div>
+            <div class="right">
+              <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+            </div>
+          </div>
+        </div>
+              <div class="content-block">
+                <div class="content-block-inner">
+             <img src="img/Learning_fun.jpg">
+                </div>
+              </div>
+              <div class="content-block-title">English Grammar</div>
+<div class="list-block cards-list">
+  <ul>
+
+    <div class="row no-gutter">
+        <div class="col-50">
+
+
+    <li class="card">
+      <div class="card-content">
+        <div class="card-content-inner">
+ <a href="presentcon.html">
+<img src ="img/present2.jpg">
+ </a>
+        </div>
+      </div>
+    </li>
+
+         
+    <li class="card">
+      <div class="card-content">
+        <div class="card-content-inner">
+<a href="pastcon.html">
+<img src ="img/past-continuous-tense.jpg">
+</a>
+        </div>
+      </div>
+    </li>
+
+
+
+   <li class="card">
+      <div class="card-content">
+        <div class="card-content-inner">
+ <a href="presentperfect.html">
+<img src ="img/present-perfect.jpg">
+ </a>
+        </div>
+      </div>
+    </li>
+
+
+   <li class="card">
+      <div class="card-content">
+        <div class="card-content-inner">
+  <a href="future.html">
+<img src ="img/Simple-Future-Tense.jpg">
+  </a>
+        </div>
+      </div>
+    </li>
+ 
+    </div>
+
+            <div class="col-50">
+
+
+    <li class="card">
+      <div class="card-content">
+        <div class="card-content-inner">
+  <a href="presentsimple.html">
+<img src ="img/presentsimple.jpg">
+  </a>
+        </div>
+      </div>
+    </li>
+
+         
+    <li class="card">
+      <div class="card-content">
+        <div class="card-content-inner">
+ <a href="pastsimple.html">
+<img src ="img/simple-past-tense.jpg">
+ </a>
+        </div>
+      </div>
+    </li>
+
+   <li class="card">
+      <div class="card-content">
+        <div class="card-content-inner">
+ <a href="pastperfect.html">
+ 
+<img src ="img/thepastperfect.jpg">
+ </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="card">
+      <div class="card-content">
+        <div class="card-content-inner">
+ <a href="passive.html">
+<img src ="img/Active-and-Passive-Voice.jpg">
+ </a>
+        </div>
+      </div>
+    </li>
+    </div>
+
+
+    </div>
+
+
+
+  </ul>
+</div>
+      
+       <div class="row no-gutter">
+        <div class="col-100 " id="video">
+          <iframe  src="https://www.youtube.com/embed/JKF_rGBlLM8" frameborder="0" allowfullscreen></iframe>
+        </div>
+       </div>
+        
+              <div class="content-block">
+                <div class="row">
+         
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Toolbar-->
+        <div class="toolbar">
+      
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>

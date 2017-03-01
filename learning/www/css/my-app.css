@@ -1,0 +1,47 @@
+
+.content-block-inner{}
+
+.content-block-inner img
+{
+    width: 100%;
+}
+.card-content-inner img
+{
+    width: 100%;
+    height: 200px;
+}
+.content-block-title
+{
+
+    font-size: 20px;
+    line-height: 30px;
+        background-color: palegoldenrod;
+    color: brown;
+    padding: 10px;
+}
+.list-block .item-title {
+
+    color: brown;
+}
+iframe
+
+{
+width: 100%;
+}
+.presentcon img
+{
+display: block;
+margin: 0 auto; 
+width: 80%;
+margin-bottom: 20px;
+}
+.presentcon
+{
+    margin-bottom: 100px;
+}
+.presentcon h2
+{
+          background-color: palegoldenrod;
+    color: brown;
+    padding: 5px;
+}
